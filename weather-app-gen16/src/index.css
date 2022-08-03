@@ -1,0 +1,126 @@
+.pa{
+    background: linear-gradient(rgba(159, 165, 180, 0.75), rgba(111, 148, 233, 0.75));
+    text-align: center;
+    margin-left: 70vh;
+    margin-right: 70vh;
+    margin-top: 30vh;
+    padding-bottom: 10vh;
+    border-radius: 10px;
+    font-family: 'Arima', cursive;
+   
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    height: 35vh;
+    float: left;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+.hijo2{
+    padding-left: 16vh;
+   
+    transition: 1s all ease;
+}
+.hijo2:hover{
+    color: aqua;
+}
+
+
+.hijo1{
+   color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+
+      font-size: 16px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      padding: 13px 20px 13px;
+      outline: 0;
+      border: 1px solid black;
+      cursor: pointer;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    button:after {
+      content: "";
+      background-color: #ffe54c;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      top: 7px;
+      left: 7px;
+      transition: 0.2s;
+    }
+    
+    button:hover:after {
+      top: 0px;
+      left: 0px;
+    }
+    
+    @media (min-width: 768px) {
+      button {
+        padding: 13px 50px 13px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+h2{
+    color: rgba(21, 19, 19, 0.75);
+    font-size: 20px
+}
+h3{
+    font-size: 20px;
+    color: black
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&display=swap');
+
+
+/* *{
+    margin: 0;
+}
+ */
